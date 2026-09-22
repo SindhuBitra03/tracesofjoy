@@ -150,7 +150,7 @@ function Dashboard() {
               <Wallet className="h-5 w-5" />
             </span>
             <div>
-              <h1 className="text-lg font-bold leading-tight tracking-tight">Expense Tracker</h1>
+              <h1 className="text-lg font-bold leading-tight tracking-tight">Traces of Joy</h1>
               <p className="text-[11px] text-muted-foreground">{user.email}</p>
             </div>
           </div>

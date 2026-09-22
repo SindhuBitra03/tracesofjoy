@@ -111,7 +111,7 @@ function AuthPage() {
             <span className="neon-glow flex h-8 w-8 items-center justify-center rounded-xl bg-primary text-primary-foreground">
               <Wallet className="h-4 w-4" />
             </span>
-            <span className="text-sm font-bold uppercase tracking-wider">Expense Tracker</span>
+            <span className="text-sm font-bold uppercase tracking-wider">Traces of Joy</span>
           </div>
           <div className="space-y-3">
             <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
