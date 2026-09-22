@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { BarChart3, CloudCog, Eye, EyeOff, KeyRound, Lock, Mail, ShieldCheck, Wallet } from "lucide-react";
+import { Eye, EyeOff, Lock, Mail, Wallet } from "lucide-react";
 import { toast } from "sonner";
 
 import { supabase } from "@/integrations/supabase/client";
@@ -9,13 +9,13 @@ import { lovable } from "@/integrations/lovable/index";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Expense Tracker — Cyber Financial Monitor" },
+      { title: "Traces of Joy — Expense Tracker" },
       {
         name: "description",
         content:
           "Track daily and monthly spending, category analytics and your expense history in a secure cloud account.",
       },
-      { property: "og:title", content: "Expense Tracker — Cyber Financial Monitor" },
+      { property: "og:title", content: "Traces of Joy — Expense Tracker" },
       {
         property: "og:description",
         content: "Monitor spending, analyse categories and keep your expense records synced to the cloud.",
@@ -26,13 +26,6 @@ export const Route = createFileRoute("/")({
   }),
   component: AuthPage,
 });
-
-const features = [
-  { icon: ShieldCheck, label: "Strictly Isolated Data" },
-  { icon: KeyRound, label: "Secure Auth" },
-  { icon: BarChart3, label: "Real-Time Analytics" },
-  { icon: CloudCog, label: "Cloud DB Sync" },
-];
 
 function AuthPage() {
   const navigate = useNavigate();
@@ -118,7 +111,7 @@ function AuthPage() {
             <span className="neon-glow flex h-8 w-8 items-center justify-center rounded-xl bg-primary text-primary-foreground">
               <Wallet className="h-4 w-4" />
             </span>
-            <span className="text-sm font-bold uppercase tracking-wider">Expense Tracker</span>
+            <span className="text-sm font-bold uppercase tracking-wider">Traces of Joy</span>
           </div>
           <div className="space-y-3">
             <h1 className="text-3xl font-extrabold leading-tight tracking-tight sm:text-4xl">
@@ -131,14 +124,6 @@ function AuthPage() {
               Monitor daily and monthly spending, track category analytics, keep a full expense history and
               sync everything securely to your own cloud account.
             </p>
-          </div>
-          <div className="grid grid-cols-2 gap-3 pt-1">
-            {features.map(({ icon: Icon, label }) => (
-              <div key={label} className="neon-panel flex items-center gap-3 p-3">
-                <Icon className="h-4 w-4 text-primary" />
-                <span className="text-xs font-semibold text-muted-foreground">{label}</span>
-              </div>
-            ))}
           </div>
         </div>
 

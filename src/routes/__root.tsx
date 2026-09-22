@@ -78,9 +78,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Expense Tracker" },
+      { title: "Traces of Joy" },
       { name: "description", content: "Track daily expenses with neon analytics and a secure cloud account." },
-      { property: "og:title", content: "Expense Tracker" },
+      { property: "og:title", content: "Traces of Joy" },
       { property: "og:description", content: "Track daily expenses with neon analytics and a secure cloud account." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

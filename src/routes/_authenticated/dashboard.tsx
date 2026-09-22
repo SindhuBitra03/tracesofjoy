@@ -32,9 +32,9 @@ import {
 export const Route = createFileRoute("/_authenticated/dashboard")({
   head: () => ({
     meta: [
-      { title: "Dashboard — Expense Tracker" },
+      { title: "Dashboard — Traces of Joy" },
       { name: "description", content: "Your spending dashboard: totals, category analytics and expense history." },
-      { property: "og:title", content: "Dashboard — Expense Tracker" },
+      { property: "og:title", content: "Dashboard — Traces of Joy" },
       { property: "og:description", content: "Totals, category analytics and your full expense history." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -150,7 +150,7 @@ function Dashboard() {
               <Wallet className="h-5 w-5" />
             </span>
             <div>
-              <h1 className="text-lg font-bold leading-tight tracking-tight">Expense Tracker</h1>
+              <h1 className="text-lg font-bold leading-tight tracking-tight">Traces of Joy</h1>
               <p className="text-[11px] text-muted-foreground">{user.email}</p>
             </div>
           </div>
