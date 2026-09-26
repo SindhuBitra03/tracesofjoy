@@ -1,26 +1,20 @@
-# Launchpad Website Builder
+tracesofjoy 💰
+Personal Expense Tracker
 
-convert this into a working website with frontend backend and database
+A simple and user-friendly expense tracker for managing daily expenses.
 
-This project was built with [Lovable](https://lovable.dev).
+🌐 Live Website
+https://tracesofjoy.lovable.app
 
-**Live app**: https://tracesofjoy.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e049bec6-2cc1-47e0-ad61-46c3fed5378b).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Features
+Add expenses
+View expenses
+Edit expenses
+Delete expenses
+Automatic expense IDs
+User-friendly interface
+Responsive design for desktop and mobile
+Tech Stack
+Lovable
+n8n
+Google Sheets
